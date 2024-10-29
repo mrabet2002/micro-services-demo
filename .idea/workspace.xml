@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3eb37fa-ad02-4872-8994-6bb24f2e6622" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/ma/enset/customerservice/entities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/ma/enset/customerservice/repos/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/src/main/java/com/rentallgo/discoveryservice/EurekaServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/ma/enset/inventoryservice/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/ma/enset/inventoryservice/repos/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2o6wCLO5lrqseOVipaDuNhtVbLN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CustomerServiceApplication.executor": "Run",
+    "Spring Boot.EurekaServiceApplication.executor": "Run",
+    "Spring Boot.GatewayServiceApplication.executor": "Run",
+    "Spring Boot.InventoryServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pc/Documents/ENSET GLSID/S5/MS/TPs/micro-services-demo/eureka-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Documents\ENSET GLSID\S5\MS\TPs\micro-services-demo\eureka-service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
+    <configuration name="CustomerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="EUREKA_HOST" value="localhost" />
+        <env name="EUREKA_PORT" value="8761" />
+        <env name="DATASOURCE_URL" value="jdbc:h2:mem:customer-db" />
+        <env name="DATASOURCE_PASSWORD" value="" />
+        <env name="DATASOURCE_USER" value="sa" />
+      </envs>
+      <module name="customer-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.enset.customerservice.CustomerServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rentallgo.discoveryservice.EurekaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="EUREKA_HOST" value="localhost" />
+        <env name="EUREKA_PORT" value="8761" />
+      </envs>
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.enset.gatewayservice.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="DATASOURCE_PASSWORD" value="" />
+        <env name="DATASOURCE_URL" value="jdbc:h2:mem:inventory-db" />
+        <env name="DATASOURCE_USER" value="sa" />
+        <env name="EUREKA_HOST" value="localhost" />
+        <env name="EUREKA_PORT" value="8761" />
+      </envs>
+      <module name="inventory-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.enset.inventoryservice.InventoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CustomerServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaServiceApplication" />
+      <item itemvalue="Spring Boot.GatewayServiceApplication" />
+      <item itemvalue="Spring Boot.InventoryServiceApplication" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3eb37fa-ad02-4872-8994-6bb24f2e6622" name="Changes" comment="" />
+      <created>1730203206657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730203206657</updated>
+      <workItem from="1730203207721" duration="95000" />
+      <workItem from="1730203348262" duration="4204000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
