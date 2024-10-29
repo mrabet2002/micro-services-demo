@@ -27,7 +27,6 @@ public class CustomerServiceApplication {
                 customerRepository.save(Customer.builder().name(name).email(name + "@gmail.com").build());
             });
 
-            customerRepository.findAll().forEach(System.out::println);
         };
     }
 }
