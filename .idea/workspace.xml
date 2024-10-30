@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3eb37fa-ad02-4872-8994-6bb24f2e6622" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/entities/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/entities/ProductItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/feign/CustomerRestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/feign/ProductRestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/repos/BillRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/repos/ProductItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/dtos/BillResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/mappers/BillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/services/BillingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/services/BillingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/web/BillRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/ma/enset/customerservice/web/CustomerRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/ma/enset/inventoryservice/web/ProductRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/ma/enset/inventoryservice/repos/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/ma/enset/inventoryservice/repos/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/entities/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/entities/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/entities/ProductItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/entities/ProductItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/feign/CustomerRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/feign/CustomerRestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/repos/BillRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/repos/BillRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/repos/ProductItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/src/main/java/ma/enset/billingservice/repos/ProductItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/ma/enset/customerservice/repos/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/ma/enset/customerservice/repos/CustomerRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -185,7 +187,7 @@
       <updated>1730203206657</updated>
       <workItem from="1730203207721" duration="95000" />
       <workItem from="1730203348262" duration="7902000" />
-      <workItem from="1730276115038" duration="904000" />
+      <workItem from="1730276115038" duration="4875000" />
     </task>
     <servers />
   </component>
